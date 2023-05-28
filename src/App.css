@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -11,6 +11,37 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+.list-header{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-content: space-between;
+}
+.list-content{
+  display: flex;
+  flex-direction: row;
+}
+ 
+.add-button{
+  width:fit-content;
+  height: auto;
+  margin: 10px;
 }
 
 .App-header {
