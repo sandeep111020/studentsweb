@@ -61,7 +61,7 @@ function App() {
        setToppers(data);
     }
 
-       //new features are added..
+       //new features are added.
   }, []);
   async function postData(){
     const response = await fetch(
