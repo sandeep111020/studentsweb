@@ -45,6 +45,8 @@ function App() {
        setBooks(data);
     }
 
+    // bugs are fixed..
+
     async function getTopersData() {
       const response = await fetch(
         "http://localhost:8080/Marks", { method: 'GET', 
